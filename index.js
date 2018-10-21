@@ -6,9 +6,9 @@
 
 // app.listen(port,() => console.log(`Example app listening on port ${port}!`))
 
-var request = require("request");
+const request = require("request");
 
-var options = { method: 'GET',
+const options = { method: 'GET',
   url: 'https://api-uat.unionbankph.com/partners/sb/locators/v1/atms',
   headers: 
    { 'Postman-Token': 'c4d56e0c-5a4b-48a9-a273-813dc58573ea',
